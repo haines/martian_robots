@@ -5,3 +5,32 @@
 [![Test Coverage](https://codeclimate.com/github/haines/martian_robots/badges/coverage.svg)](https://codeclimate.com/github/haines/martian_robots/coverage)
 
 Martian Robots programming problem
+
+## Setup
+
+```console
+$ bundle install
+```
+
+## Test
+
+```console
+$ bundle exec rake
+```
+
+## Run
+
+```console
+$ bundle exec bin/martian_robots [path to input]
+```
+
+The program will read from stdin if an input file is not given.
+
+### Example
+
+```console
+$ bundle exec bin/martian_robots test/sample_input.txt
+1 1 E
+3 3 N LOST
+2 3 S
+```
