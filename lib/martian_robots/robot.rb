@@ -20,6 +20,10 @@ module MartianRobots
       @lost
     end
 
+    def to_s
+      "#{state}#{" LOST" if lost?}"
+    end
+
     private
 
     attr_reader :world

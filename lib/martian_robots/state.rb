@@ -8,6 +8,10 @@ module MartianRobots
       @orientation = orientation
     end
 
+    def to_s
+      "#{x} #{y} #{orientation}"
+    end
+
     def ==(other)
       values == other.values
     end

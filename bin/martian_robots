@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+$LOAD_PATH.unshift File.expand_path("../lib", __dir__)
+
+require "martian_robots/application"
+
+MartianRobots::Application.run input: ARGF, output: STDOUT
